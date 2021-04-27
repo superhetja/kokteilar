@@ -31,6 +31,14 @@ export default function Home() {
             </p>
           </a> */}
         </div>
+        <div className="verdskra">
+          <h2>Verðskrá</h2>
+          <p>Pakki 1</p>
+          <p>Pakki 2</p>
+          <p>Pakki 3</p>
+          <p>Pakki 4</p>
+          <p>Pakki 5</p>
+        </div>
       </main>
 
       <footer>
@@ -53,6 +61,7 @@ export default function Home() {
           justify-content: center;
           align-items: center;
           background-image: url("../cocktail.jpg");
+          background-size: 100%;
           
         }
 
@@ -123,6 +132,13 @@ export default function Home() {
           font-size: 1.1rem;
           font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
             DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+        }
+
+        .verdskra{
+          background: rgba(0,0,0,0.5);
+          color: #ffffff;
+          width: 50%;
+          text-align: center;
         }
 
         .grid {
