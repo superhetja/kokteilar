@@ -4,18 +4,17 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Koktailvagninn</title>
+        <title>Vegbúinn</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
         <h1 className="title">
-          Kokteilvagninn!
+          Vegbúinn
         </h1>
+        <div className="mainbanner">
 
-        <p className="description">
-          Við komum með partýið til þín
-        </p>
+        </div>
+      <main>
 
         <div className="grid">
           <h2>Ertu að fara að halda partý eða veislu?</h2>
@@ -60,9 +59,14 @@ export default function Home() {
           flex-direction: column;
           justify-content: center;
           align-items: center;
-          background-image: url("../cocktail.jpg");
-          background-size: 100%;
           
+        }
+        .mainbanner {
+          background-image: url("../cocktail2.jpg");
+          background-size: 100%;
+          min-height: 500px;
+          width: 100%;
+          background-position: center;
         }
 
         main {
